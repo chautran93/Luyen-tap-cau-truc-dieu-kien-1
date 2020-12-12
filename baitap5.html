@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let a = parseFloat(prompt("nhập điểm kiểm tra"));
+        let b = parseFloat(prompt("nhập điểm thi giữa kì"));
+        let c = parseFloat(prompt("nhập điểm cuối kì"));
+        let tong = (a + b + c) / 3;
+        if (tong >= 8) {
+            alert("Giỏi");
+        } if (tong >= 7) {
+            alert("Khá");
+        } if (tong >= 6) {
+            alert("Trung bình");
+        } else {
+            alert("Yếu");
+        }
+    </script>
+</body>
+
+</html>
